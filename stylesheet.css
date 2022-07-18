@@ -16,14 +16,14 @@ a {
     color: black;  
 }
 footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 #about {
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: space-evenly;
 }
 #gallery{
@@ -34,7 +34,14 @@ footer {
 #contact {
     margin-top: 100px;
     border-top: 3px solid black;
+    text-align: center;
 }
 #gallerydesc {
     text-align: center;
+    padding-top: 30px;
+}
+#quote {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 3px dotted black;
 }
