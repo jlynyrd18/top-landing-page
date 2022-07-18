@@ -10,13 +10,14 @@ nav {
 img {
     width: 150px;
     height: auto;
+    border-radius: 25px;
 }
 a {
     text-decoration: none; 
     color: black;  
 }
-footer {
-    position: absolute;
+footer {  
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
